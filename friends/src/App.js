@@ -16,7 +16,7 @@ function App() {
           </li>
       </ul>
       <Switch>
-        <Route path ='/login' component={LoginForm} />
+        <Route path ='/login' render={props => <LoginForm {...props} /> } />
         <Route component={LoginForm} />
 
       </Switch>
