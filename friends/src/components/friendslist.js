@@ -36,15 +36,15 @@ useEffect(()=> {
     return (
         <div className='friends-container'>
         <form className='friends-form' onSubmit={handleSubmit}>
-            <label className='friend-name'>
+            <label className='friend-name form'>
                 Name:
                 <input type='text' name='name' placeholder="Friend's Name" onChange={handleChange}/>
             </label>
-            <label className='friend-age'>
+            <label className='friend-age form'>
                 Age:
                 <input type='text' name='age' placeholder="Friend's Age" onChange={handleChange}/>
             </label>
-            <label className='friend-name'>
+            <label className='friend-name form'>
                 Email:
                 <input type='email' name='email' placeholder="Friend's Email" onChange={handleChange}/>
             </label>
